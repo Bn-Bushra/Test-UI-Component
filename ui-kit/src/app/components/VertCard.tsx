@@ -14,19 +14,19 @@ const VertCard = () => {
       {/* list */}
       <div className="flex flex-col gap-6 ">
         <div className="flex items-center gap-1">
-          <MdMarkunread className="text-2xl" />
+          <MdMarkunread size={24} />
           <p className="font-semibold ">Item</p>
         </div>
         <div className="flex items-center gap-1">
-          <MdMarkunread className="text-2xl" />
+          <MdMarkunread size={24} />
           <p className="font-semibold ">Item</p>
         </div>
         <div className="flex items-center gap-1">
-          <MdMarkunread className="text-2xl" />
+          <MdMarkunread size={24} />
           <p className="font-semibold ">Item</p>
         </div>
         <div className="flex items-center gap-1">
-          <MdMarkunread className="text-2xl" />
+          <MdMarkunread size={24} />
           <p className="font-semibold ">Item</p>
         </div>
       </div>

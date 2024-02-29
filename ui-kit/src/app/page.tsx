@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HorzCard from "./components/HorzCard";
 import VertCard from "./components/VertCard";
 import VertCardII from "./components/VertCardII";
