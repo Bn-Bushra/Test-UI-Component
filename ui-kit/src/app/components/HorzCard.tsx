@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import { MdAdd, MdHorizontalRule } from "react-icons/md";
 
@@ -13,11 +13,11 @@ const HorzCard = () => {
       {/* stepper */}
       <div className="flex justify-between items-center gap-4">
         <button className="size-7 border  border-gray-400 rounded-full">
-          <MdHorizontalRule />
+          <MdHorizontalRule size={24} />
         </button>
         <p className="text-sm">2</p>
         <button className="size-7 border  border-gray-400 rounded-full">
-          <MdAdd />
+          <MdAdd size={24} />
         </button>
       </div>
     </div>
