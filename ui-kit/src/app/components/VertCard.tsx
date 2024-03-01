@@ -7,7 +7,6 @@ const VertCard = () => {
       <div>
         <p className="text-sm text-gray-400 mb-1">Reading Task</p>
         <h2 className="text-2xl font-semibold">
-          {" "}
           Constructive and destructive waves
         </h2>
       </div>

@@ -2,9 +2,9 @@ import { MdOpenInNew } from "react-icons/md";
 
 const VertCardII = () => {
   return (
-    <div className="rounded-xl bg-gray-100 w-[360px] m-auto my-10 px-4 py-6 space-y-6">
+    <div className="w-[360px]  mb-10">
       <div
-        className="flex flex-col gap-4
+        className="bg-gray-100 flex flex-col gap-4 p-4 rounded-t-xl 
       "
       >
         <h3 className="font-semibold">Constructive and destructive waves</h3>
@@ -15,9 +15,8 @@ const VertCardII = () => {
         >
           Choose
         </button>
-        <hr className="overflow-visible" />
       </div>
-      <div className="flex gap-2 items-center ">
+      <div className="bg-gray-100 flex gap-2 items-center p-4 rounded-b-xl border-t-[0.5px]">
         <MdOpenInNew />
         <a href="#" className="font-medium text-sm">
           Share
