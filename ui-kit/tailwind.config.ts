@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'nana-blue': '#00C2E8',
+        'nana-lime': '#4ADE80',
+        'nana-purple': '#C084FC',
+        'nana-stone': '#A8A29E',
+      },
+      fontFamily: {
+        Omnes: ['Omnes', 'sans-serif'],
+      },
     },
   },
   plugins: [],
